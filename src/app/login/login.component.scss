@@ -20,15 +20,28 @@
 form{
     background-color: white;
     height: 80%;
-    width: 30%;
+    width: 50%;
     padding: 5%;
     border-radius: 10px;
 }
 input{
+  
+}
+.inputs{
     width: 100%;
     height: 40px;
     border-radius: 8px;
     border-color: white;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 27%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
 }
 .Btn{
     width: 100%;
@@ -38,8 +51,17 @@ input{
     border-radius: 5px;
     border-color: white;
 }
+
+.regBtn{
+    border: none;
+    display: flex;
+    margin-left: 20px;
+    background-color: none;
+}
 h3{
     font-size: larger;
+    display: flex;
+    justify-content: center;
 }
 .heading{
     padding-top: 20px;
@@ -52,4 +74,10 @@ h3{
     color: white;
     font-size: 100px;
     font-weight: bolder;
+}
+
+.image{
+    height: 5%;
+    width: 5%;
+    border-radius: 5px;
 }

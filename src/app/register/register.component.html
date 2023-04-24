@@ -1,0 +1,44 @@
+<body>
+   
+   <div class="main">
+      <div class="left">
+         <h3>Welcome</h3>
+         <p> You are 30 seconds away<br> from earning your own<br> money</p><br><br><br><br><br>
+         <button class="Btn2">Login</button>
+      </div>
+      
+      <div class="right">
+         <h4>Apply as a Employee</h4>
+         
+         <form (submit)="registerSubmit()"class="form">
+            
+            <div class="field1">
+               
+              <input type="text"  id="firstname" [(ngModel)]="firstname"placeholder="Firstname"><br><br>
+               <input type="text"  id="lastname" [(ngModel)]="lastname"placeholder="Lastname"><br><br>
+               <input type="Password"  id="password" [(ngModel)]="password"placeholder="Password"><br><br>
+               <input type="Confirm Password"  id="confirmpassword" [(ngModel)]="confirmpassword"placeholder="ConfirmPassword">
+            </div>
+            <div class="field2">
+               <input type="email"  id="email" [(ngModel)]="email" placeholder="Your Email"><br><br>
+               <input type="text"  id="phone"[(ngModel)] ="phone"placeholder="Your Phone" ><br><br>
+               <input type="text" id="pleaseSelectYourSecurityQuestion" [(ngModel)]="pleaseSelectYourSecurityQuestion"placeholder="Please Select Your Security Question"><br><br>
+               <input type="text"  id="enterYourAnswer" [(ngModel)]="enterYourAnswer" placeholder="Enter Your Answer" ><br><br><br>&ensp;&ensp;&ensp;&ensp;
+               
+               <button type="Submit" class="Btn">Register</button>
+               
+            </div>
+         
+        
+         <div class="radioBtn">
+            <input type="radio">Male
+            <input type="radio">Female
+         </div>
+         </form>
+      </div>
+   </div>
+
+
+
+   </body>
+

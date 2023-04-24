@@ -5,7 +5,11 @@
 
 
 <div class="main-content">
+    
     <div class="text">
+        <div class="image">
+            <img src="../../assets/exclusive addons logo - Bing images_files/">
+        </div>
         <div class="heading">
         EXCLUSIVE ADDONS<br>
         F O R &ensp;&ensp;  E L E M E N T O R
@@ -14,16 +18,24 @@
             CREATE<br> CUSTOM<br>
             LOGIN FORM
         </div>
+        
    </div>
 <div class="form-area">
     <form>
         <h3>Log in</h3>
         
-        <input type="text" placeholder="Username"><br><br>
-        <input type="password" placeholder="password"><br><br>
-        <button class="Btn">Login</button><br><br>
-        
-        
+        <input type="text" class="form-control" id="username" class="inputs" placeholder="username"><br><br>
+        <input type="password" class="password" id="password" class="inputs"placeholder="password"><br><br>
+        <button class="Btn" (click)="login()">Login</button><br><br>
+        <div class="check">
+            <div class="checkbox">
+        <input type="checkbox"><p>Remember me?</p></div>
+        <p>Lost Your password</p>
+        </div>
+        <br><br><br>
+        <div class="regBtn">
+        <button  >Register for an account</button>
+    </div>
     </form>
-    <div class="footer">exclusiveaddons.com</div>
+ 
 </div>
